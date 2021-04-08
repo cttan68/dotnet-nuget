@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>dotnet_nuget</RootNamespace>
+    <PackageId>cttan68-mydotnetpacknuget</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <Authors>cttan68</Authors>
+    <Company>genslab</Company>
+    <PackageDescription>NuGet package sample with dotnet pack!</PackageDescription>
+    <RepositoryUrl>https://github.com/cttan68/dotnet-nuget.git</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
