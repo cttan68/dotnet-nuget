@@ -39,7 +39,7 @@ jobs:
       - name: Restore with dotnet
         run: dotnet restore ${projectpath}
       - name: Build with dotnet
-        run: dotnet build ${projectpath} --configuration ${build configuration} --version-suffix ${runid} --no-restore
+        run: dotnet build ${projectpath} --configuration ${buildconfiguration} --version-suffix ${runid} --no-restore
       - name: Pack as nuget with dotnet
         run: dotnet pack ${projectpath} --configuration ${buildconfiguration} --output ${outputpath} --version-suffix ${runid} --no-build --no-restore
       - name: Publish Nuget to GitHub registry
